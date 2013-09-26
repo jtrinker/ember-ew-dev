@@ -60,6 +60,10 @@ span.line-bigger {
 		margin-left: 15px;
 		margin-bottom: 0 !important;
 
+		li h6 {
+			color: #fff;
+		}
+
 		li h6 a {
 			color: #fff;
 			&:hover { color: #edae65; }
@@ -208,6 +212,219 @@ footer {
 		}
 	}
 }
+
+
+// Index
+
+.home-bg {
+	background-image: url(index_bg.png);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  .we-are-motion-therapy {
+  	margin-top: 250px;
+		margin-left: 50px;
+  }
+}
+
+.carousel-pics {
+	width: 100%;
+}
+
+
+.about-phil {
+	padding: 8% 0% 22% 0%;
+	visibility: hidden;
+}
+
+.philosophy-content {
+	background-color: #fff;
+
+	.about-us {
+		position: relative;
+		padding-left: 53px !important;
+		padding-top: 34px;
+
+		.subpage-content-container {
+			background-image: url(color-bar.png);
+			background-repeat: repeat-y;
+			padding-left: 32px;
+
+		}
+	}
+}
+
+.employee-block {
+	position: relative;
+  height: 92px;
+	margin-top: 46px;
+
+	.bio-pic {
+		position: absolute;
+		z-index: 1;
+		top: -24px;
+	}
+
+	.title-bar {
+		position: relative;
+		width: 100%;
+		height: 2.5em;
+		background-color: #6aa1b6;
+
+		h3.employee {
+			float: right;
+			padding-right: 20px;
+			margin-top: 0px;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 100;
+
+			span.title {
+				font-size: 0.8em;
+			}
+	  }
+	}
+}
+
+// CONDITIONS
+
+.toggle-container {
+
+	.toggle-bar {
+		background-color: #6aa1b6;
+		padding-left: 5%;
+		padding-right: 2.5%;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #768087;
+		}
+
+		.condition-text {
+			color: #fff;
+			font-size: 1.3em;
+			font-weight: 100;
+		}
+	}
+
+	.hidden-content {
+		padding-top: 2%;
+		display: none;
+	}
+}
+
+.employee-block {
+	position: relative;
+  height: 92px;
+	margin-top: 46px;
+
+	.bio-pic {
+		position: absolute;
+		z-index: 1;
+		top: -24px;
+	}
+
+	.title-bar {
+		position: relative;
+		width: 100%;
+		height: 2.5em;
+		background-color: #6aa1b6;
+
+		h3.employee {
+			float: right;
+			padding-right: 20px;
+			margin-top: 0px;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 100;
+
+			span.title {
+				font-size: 0.8em;
+			}
+	  }
+	}
+}
+
+// CONDITIONS
+
+.toggle-container {
+
+	.toggle-bar {
+		background-color: #6aa1b6;
+		padding-left: 5%;
+		padding-right: 2.5%;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #768087;
+		}
+
+		.condition-text {
+			color: #fff;
+			font-size: 1.3em;
+			font-weight: 100;
+		}
+	}
+
+	.hidden-content {
+		padding-top: 2%;
+		display: none;
+	}
+}
+
+.active-bg {
+	background-color: #768087 !important;
+}
+
+// PROGRAMS
+
+.toggle-bar-programs {
+	padding-left: 5%;
+	padding-right: 2.5%;
+	padding-top: 0.15em;
+	margin-bottom: 2%;
+	cursor: pointer;
+
+	.toggle-arrow {
+		float: right;
+	}
+}
+
+.ewpt {
+	background-color: #67a2b9;
+}
+
+.ewbody {
+	background-color: #898b49;
+}
+
+.ewrun {
+	background-color: #b5be00;
+}
+
+.ewfit {
+	background-color: #b1222b;
+}
+
+.ewteam {
+	background-color: #ed7420;
+}
+
+.ewworkplace {
+	background-color: #4d738a;
+}
+
+ul.program-lists {
+	margin-left: 1.2em;
+	color: #5d646c;
+}
+
+
+
+
+
 
 
 
